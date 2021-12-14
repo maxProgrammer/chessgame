@@ -1,4 +1,4 @@
-package models.entities;
+package boardgame;
 
 public class Piece {
 

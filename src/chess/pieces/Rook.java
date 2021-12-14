@@ -1,8 +1,8 @@
 package chess.pieces;
 
+import boardgame.Board;
 import chess.ChessPiece;
 import chess.Color;
-import models.entities.Board;
 
 public class Rook extends ChessPiece {
 

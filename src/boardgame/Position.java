@@ -1,11 +1,10 @@
-package models.entities;
+package boardgame;
 
 public class Position {
 	private Integer row;
 	private Integer column;
-	
-	public Position() {
 
+	public Position() {
 
 	}
 
@@ -30,13 +29,11 @@ public class Position {
 	public void setColumn(Integer column) {
 		this.column = column;
 	}
-	
+
 	@Override
 	public String toString() {
 		return row + ", " + column;
-		
+
 	}
-	
-	
 
 }
