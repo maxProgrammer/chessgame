@@ -1,7 +1,6 @@
-package chess.pieces;
+package chess;
 
 import boardgame.Position;
-import chess.ChessException;
 
 public class ChessPosition {
 
@@ -24,7 +23,7 @@ public class ChessPosition {
 		return row;
 	}
 
-	public Position toPosition() {
+	protected Position toPosition() {
 		return new Position(8 - row, column - 'a');
 	}
 
