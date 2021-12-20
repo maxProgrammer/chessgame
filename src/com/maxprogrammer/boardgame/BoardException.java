@@ -1,4 +1,4 @@
-package boardgame;
+package com.maxprogrammer.boardgame;
 
 public class BoardException extends RuntimeException {
 

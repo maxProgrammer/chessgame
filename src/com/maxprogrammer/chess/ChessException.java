@@ -1,4 +1,4 @@
-package chess;
+package com.maxprogrammer.chess;
 
 public class ChessException extends RuntimeException {
 
